@@ -1,0 +1,129 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -I 320 -K 0 -S 1 -num-slots 1
+Relation:     angiovessel
+Instances:    262144
+Attributes:   82
+              pixelValue
+              gaussianBlur1
+              gaussianBlur2
+              linearGradient
+              gaussGradient1
+              gaussGradient2
+              hessian1
+              hessian2
+              hessian3
+              hessian4
+              hessian5
+              hessian6
+              hessian7
+              hessian8
+              hessian9
+              hessian10
+              hessian11
+              enhanceSharp1
+              enhanceSharp2
+              meanBlur1
+              meanBlur2
+              meanBlur3
+              meanBlur4
+              meanBlur5
+              anisotropicDiff1
+              anisotropicDiff2
+              anisotropicDiff3
+              anisotropicDiff4
+              opening1
+              opening2
+              opening3
+              closing1
+              closing2
+              closing3
+              kuwahara1
+              kuwahara2
+              gabor1
+              gabor2
+              gabor3
+              gabor4
+              highOrderGradient1
+              highOrderGradient2
+              highOrderGradient3
+              highOrderGradient4
+              entropy1
+              entropy2
+              entropy3
+              laplacian1
+              laplacian2
+              rodriguesSobel1
+              rodriguesSobel2
+              shakeEffect
+              simpleSharpen
+              coOccurrence1
+              coOccurrence2
+              coOccurrence3
+              coOccurrence4
+              coOccurrence5
+              coOccurrence6
+              frangi1
+              frangi2
+              frangi3
+              vesselness1
+              vesselness2
+              cooccurrenceHess1
+              cooccurrenceHess2
+              cooccurrenceHess3
+              cooccurrenceHess4
+              cooccurrenceHess5
+              cooccurrenceHess6
+              cooccurrenceHess7
+              cooccurrenceHess8
+              cooccurrenceHess9
+              cooccurrenceHess10
+              cooccurrenceHess11
+              cooccurrenceHess12
+              classDiagonal
+              classHorizontal
+              classVertical
+              thereIsOneClassInRadius
+              closestClassInRadius
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+Random forest of 320 trees, each constructed while considering 7 random features.
+Out of bag error: 0.0054
+
+
+
+Time taken to build model: 709.38 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 17.29 seconds
+
+=== Summary ===
+
+Correctly Classified Instances      259995               99.1802 %
+Incorrectly Classified Instances      2149                0.8198 %
+Kappa statistic                          0.9283
+Mean absolute error                      0.0172
+Root mean squared error                  0.0794
+Relative absolute error                 14.5513 %
+Root relative squared error             33.1113 %
+Coverage of cases (0.95 level)          99.9851 %
+Mean rel. region size (0.95 level)      53.216  %
+Total Number of Instances           262144     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,996    0,072    0,995      0,996    0,996      0,928    0,999     1,000     0
+                 0,928    0,004    0,937      0,928    0,933      0,928    0,999     0,980     1
+Weighted Avg.    0,992    0,067    0,992      0,992    0,992      0,928    0,999     0,999     
+
+=== Confusion Matrix ===
+
+      a      b   <-- classified as
+ 245103   1001 |      a = 0
+   1148  14892 |      b = 1
+
